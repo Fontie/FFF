@@ -1,17 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objectPlayerSmallSword",
+  "name": "objectPlayerFireball",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"objectEnemy","path":"objects/objectEnemy/objectEnemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "melee",
-    "path": "folders/Objects/weapons/melee.yy",
+    "name": "magic",
+    "path": "folders/Objects/weapons/magic.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spriteSmallSword",
-    "path": "sprites/spriteSmallSword/spriteSmallSword.yy",
+    "name": "spriteFireball",
+    "path": "sprites/spriteFireball/spriteFireball.yy",
   },
   "spriteMaskId": null,
   "visible": true,

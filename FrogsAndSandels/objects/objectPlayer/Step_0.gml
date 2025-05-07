@@ -9,7 +9,7 @@ if move
 	else
 	{
 		move_towards_point(TheXToMoveTo,TheYToMoveTo,2);
-		Mana = Mana - 1;
+		Mana = Mana - 0.25;
 		
 		if distance_to_point(TheXToMoveTo,TheYToMoveTo) <= 4
 		{
